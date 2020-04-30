@@ -1,0 +1,84 @@
+BillingAddress,BillingCity,BillingCountry,BillingPostalCode,BillingState,CustomerId,InvoiceDate,InvoiceId,Total
+Theodor-Heuss-Straße 34,Stuttgart,Germany,70174,,2,2009-01-01 00:00:00,1,2055.98
+Ullevålsveien 14,Oslo,Norway,0171,,4,2009-01-02 00:00:00,2,1641.96
+Grétrystraat 63,Brussels,Belgium,1000,,8,2009-01-03 00:00:00,3,2759.94
+8210 111 ST NW,Edmonton,Canada,T6G 2C7,AB,14,2009-01-06 00:00:00,4,1740.91
+69 Salem Street,Boston,USA,2113,MA,23,2009-01-11 00:00:00,5,500.14
+Berger Straße 10,Frankfurt,Germany,60316,,37,2009-01-19 00:00:00,6,1052.01
+Barbarossastraße 19,Berlin,Germany,10779,,38,2009-02-01 00:00:00,7,2067.02
+"8, Rue Hanovre",Paris,France,75002,,40,2009-02-01 00:00:00,8,3422.98
+"9, Place Louis Barthou",Bordeaux,France,33000,,42,2009-02-02 00:00:00,9,3381.04
+3 Chatham Street,Dublin,Ireland,,Dublin,46,2009-02-03 00:00:00,10,1499.06
+202 Hoxton Street,London,United Kingdom,N1 5LH,,52,2009-02-06 00:00:00,11,1070.91
+Theodor-Heuss-Straße 34,Stuttgart,Germany,70174,,2,2009-02-11 00:00:00,12,1894.86
+1600 Amphitheatre Parkway,Mountain View,USA,94043-1351,CA,16,2009-02-19 00:00:00,13,2386.99
+1 Microsoft Way,Redmond,USA,98052-8300,WA,17,2009-03-04 00:00:00,14,1232.02
+1 Infinite Loop,Cupertino,USA,95014,CA,19,2009-03-04 00:00:00,15,2217.98
+801 W 4th Street,Reno,USA,89503,NV,21,2009-03-05 00:00:00,16,3167.04
+319 N. Frances Street,Madison,USA,53703,WI,25,2009-03-06 00:00:00,17,2584.06
+194A Chain Lake Drive,Halifax,Canada,B3S 1C5,NS,31,2009-03-09 00:00:00,18,1255.09
+"8, Rue Hanovre",Paris,France,75002,,40,2009-03-14 00:00:00,19,2944.86
+110 Raeburn Pl,Edinburgh ,United Kingdom,EH4 1HH,,54,2009-03-22 00:00:00,20,3102.99
+421 Bourke Street,Sidney,Australia,2010,NSW,55,2009-04-04 00:00:00,21,1314.98
+"Calle Lira, 198",Santiago,Chile,,,57,2009-04-04 00:00:00,22,3493.02
+"3,Raj Bhavan Road",Bangalore,India,560001,,59,2009-04-05 00:00:00,23,2927.96
+Ullevålsveien 14,Oslo,Norway,0171,,4,2009-04-06 00:00:00,24,1657.06
+"Rua Dr. Falcão Filho, 155",São Paulo,Brazil,01007-010,SP,10,2009-04-09 00:00:00,25,1762.09
+1 Infinite Loop,Cupertino,USA,95014,CA,19,2009-04-14 00:00:00,26,1397.86
+5112 48 Street,Yellowknife,Canada,X1A 1N6,NT,33,2009-04-22 00:00:00,27,2182.01
+Rua da Assunção 53,Lisbon,Portugal,,,34,2009-05-05 00:00:00,28,3392.98
+Tauentzienstraße 8,Berlin,Germany,10789,,36,2009-05-05 00:00:00,29,2108.98
+Barbarossastraße 19,Berlin,Germany,10779,,38,2009-05-06 00:00:00,30,251.96
+"9, Place Louis Barthou",Bordeaux,France,33000,,42,2009-05-07 00:00:00,31,502.06
+Lijnbaansgracht 120bg,Amsterdam,Netherlands,1016,VV,48,2009-05-10 00:00:00,32,2657.09
+"Calle Lira, 198",Santiago,Chile,,,57,2009-05-15 00:00:00,33,3028.86
+"Praça Pio X, 119",Rio de Janeiro,Brazil,20040-020,RJ,12,2009-05-23 00:00:00,34,2058.99
+Qe 7 Bloco G,Brasília,Brazil,71020-677,DF,13,2009-06-05 00:00:00,35,1516.02
+700 W Pender Street,Vancouver,Canada,V6C 1G8,BC,15,2009-06-05 00:00:00,36,2211.02
+1 Microsoft Way,Redmond,USA,98052-8300,WA,17,2009-06-06 00:00:00,37,2989.96
+801 W 4th Street,Reno,USA,89503,NV,21,2009-06-07 00:00:00,38,1921.06
+1033 N Park Ave,Tucson,USA,85719,AZ,27,2009-06-10 00:00:00,39,3380.09
+Tauentzienstraße 8,Berlin,Germany,10789,,36,2009-06-15 00:00:00,40,571.86
+C/ San Bernardo 85,Madrid,Spain,28015,,50,2009-06-23 00:00:00,41,1707.99
+Celsiusg. 9,Stockholm,Sweden,11230,,51,2009-07-06 00:00:00,42,481.02
+113 Lupus St,London,United Kingdom,SW1V 3EN,,53,2009-07-06 00:00:00,43,2552.02
+421 Bourke Street,Sidney,Australia,2010,NSW,55,2009-07-07 00:00:00,44,3518.04
+"3,Raj Bhavan Road",Bangalore,India,560001,,59,2009-07-08 00:00:00,45,1666.06
+Rilská 3174/6,Prague,Czech Republic,14300,,6,2009-07-11 00:00:00,46,1608.91
+700 W Pender Street,Vancouver,Canada,V6C 1G8,BC,15,2009-07-16 00:00:00,47,754.86
+796 Dundas Street West,Toronto,Canada,M6J 1V1,ON,29,2009-07-24 00:00:00,48,3375.99
+230 Elgin Street,Ottawa,Canada,K2P 1L7,ON,30,2009-08-06 00:00:00,49,3052.02
+696 Osborne Street,Winnipeg,Canada,R3L 2B9,MB,32,2009-08-06 00:00:00,50,2564.02
+Rua da Assunção 53,Lisbon,Portugal,,,34,2009-08-07 00:00:00,51,643.04
+Barbarossastraße 19,Berlin,Germany,10779,,38,2009-08-08 00:00:00,52,1725.94
+Porthaninkatu 9,Helsinki,Finland,00530,,44,2009-08-11 00:00:00,53,3488.09
+113 Lupus St,London,United Kingdom,SW1V 3EN,,53,2009-08-16 00:00:00,54,11.86
+Grétrystraat 63,Brussels,Belgium,1000,,8,2009-08-24 00:00:00,55,2558.99
+Sønder Boulevard 51,Copenhagen,Denmark,1720,,9,2009-09-06 00:00:00,56,2385.02
+"Av. Paulista, 2022",São Paulo,Brazil,01310-200,SP,11,2009-09-06 00:00:00,57,1068.02
+Qe 7 Bloco G,Brasília,Brazil,71020-677,DF,13,2009-09-07 00:00:00,58,2505.96
+1 Microsoft Way,Redmond,USA,98052-8300,WA,17,2009-09-08 00:00:00,59,1241.06
+69 Salem Street,Boston,USA,2113,MA,23,2009-09-11 00:00:00,60,1381.09
+696 Osborne Street,Winnipeg,Canada,R3L 2B9,MB,32,2009-09-16 00:00:00,61,1242.14
+3 Chatham Street,Dublin,Ireland,,Dublin,46,2009-09-24 00:00:00,62,542.01
+"Via Degli Scipioni, 43",Rome,Italy,00192,RM,47,2009-10-07 00:00:00,63,2363.02
+Ordynacka 10,Warsaw,Poland,00-358,,49,2009-10-07 00:00:00,64,3032.98
+Celsiusg. 9,Stockholm,Sweden,11230,,51,2009-10-08 00:00:00,65,3488.04
+421 Bourke Street,Sidney,Australia,2010,NSW,55,2009-10-09 00:00:00,66,2509.06
+Theodor-Heuss-Straße 34,Stuttgart,Germany,70174,,2,2009-10-12 00:00:00,67,423.09
+"Av. Paulista, 2022",São Paulo,Brazil,01310-200,SP,11,2009-10-17 00:00:00,68,80.14
+319 N. Frances Street,Madison,USA,53703,WI,25,2009-10-25 00:00:00,69,492.01
+2211 W Berry Street,Fort Worth,USA,76110,TX,26,2009-11-07 00:00:00,70,475.02
+302 S 700 E,Salt Lake City,USA,84102,UT,28,2009-11-07 00:00:00,71,2162.02
+230 Elgin Street,Ottawa,Canada,K2P 1L7,ON,30,2009-11-08 00:00:00,72,1004.96
+Rua da Assunção 53,Lisbon,Portugal,,,34,2009-11-09 00:00:00,73,627.94
+"8, Rue Hanovre",Paris,France,75002,,40,2009-11-12 00:00:00,74,7.09
+Ordynacka 10,Warsaw,Poland,00-358,,49,2009-11-17 00:00:00,75,2243.86
+Ullevålsveien 14,Oslo,Norway,0171,,4,2009-11-25 00:00:00,76,995.99
+Klanova 9/506,Prague,Czech Republic,14700,,5,2009-12-08 00:00:00,77,1657.02
+"Rotenturmstraße 4, 1010 Innere Stadt",Vienne,Austria,1010,,7,2009-12-08 00:00:00,78,2353.98
+Sønder Boulevard 51,Copenhagen,Denmark,1720,,9,2009-12-09 00:00:00,79,218.04
+Qe 7 Bloco G,Brasília,Brazil,71020-677,DF,13,2009-12-10 00:00:00,80,775.06
+1 Infinite Loop,Cupertino,USA,95014,CA,19,2009-12-13 00:00:00,81,2635.09
+302 S 700 E,Salt Lake City,USA,84102,UT,28,2009-12-18 00:00:00,82,476.86
+"9, Place Louis Barthou",Bordeaux,France,33000,,42,2009-12-26 00:00:00,83,259.99
