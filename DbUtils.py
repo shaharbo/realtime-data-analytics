@@ -26,7 +26,7 @@ def process_message(body, db):
 
 
 def load_json_to_db(db, path, tablename):
-    # db.create_table(tablename)
+    db.create_table(tablename)
     try:
         with open(path, encoding='utf-8-sig') as json_file:
             json_data = json.loads(json_file.read())
@@ -43,7 +43,7 @@ def load_json_to_db(db, path, tablename):
 
 
 def load_csv_to_db(db, path, tablename):
-    # db.create_table(tablename)
+    db.create_table(tablename)
     try:
         df = pandas.read_csv(path)
         df.to_sql(tablename, db.conn, if_exists='append', index=False)
