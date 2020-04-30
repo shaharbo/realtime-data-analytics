@@ -1,4 +1,4 @@
-"# realtime-data-analytics"
+# Realtime Data Analytics
 
 This project contains three modules.<br />
 First module send in various iterations a json object contains path to invoice file, file format and table name to load file into.<br />
@@ -10,9 +10,9 @@ In order to use this project you will need a running RabbitMQ server and SQLite 
 ## Requirements
 
 Please run the following command to install project dependencies
-
+```
    pip install -r requirements.txt
-
+```
 ## Start the project
 
 In order to start the project run Main.py file
