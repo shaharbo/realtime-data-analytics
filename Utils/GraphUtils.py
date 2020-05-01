@@ -1,8 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from Db.DbHandler import dbHandler
+
+db = dbHandler.getInstance()
 
 
-def get_data(db):
+def get_data():
+    print('creating graph')
     salesPerMonth = "SELECT strftime('%m/%Y',DATE(InvoiceDate)) as date, count(total) as total_sales from invoices group by strftime('%m/%Y',DATE(InvoiceDate))"
     activeCustomersPerMonth = "SELECT distinct strftime('%m/%Y',DATE(InvoiceDate))as date, count (CustomerId)as active_customers from invoices where total>0 GROUP by strftime('%m/%Y',DATE(InvoiceDate))"
     query1 = db.select(salesPerMonth)

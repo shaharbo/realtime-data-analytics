@@ -15,11 +15,13 @@ Please run the following command to install project dependencies
 ```
 ## Start the project
 
-In order to start the project run Main.py file
-
+In order to start the project, please run
+```
+   python Main.py
+```
 
 ## Run tests
 
-In order to perform tests, run
+In order to perform tests, please run
 
 

@@ -1,5 +1,5 @@
 import unittest
-from DbUtils import process_message
+from Utils.DbUtils import process_message
 from test.MockDb import MockDb
 
 
@@ -31,8 +31,10 @@ class TestDbUtils(unittest.TestCase):
         message = {'path': "../invoices/invoices_2009.csv", 'format': "csv", 'loadTo': 'test'}
         result = process_message(message, self.db)
         self.assertTrue(result)
+        self.db.delete_table()
 
 
 if __name__ == '__main__':
     unittest.main()
+
 

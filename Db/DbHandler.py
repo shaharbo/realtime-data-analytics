@@ -7,14 +7,14 @@ class dbHandler:
     @staticmethod
     def getInstance():
         if dbHandler.__instance is None:
-            dbHandler()
+            dbHandler(dbPath='invoices-db')
         return dbHandler.__instance
 
-    def __init__(self):
+    def __init__(self, dbPath):
         if dbHandler.__instance is not None:
             raise Exception("This class is a singleton!")
         else:
-            self.path = 'db/TEST_DB.db'
+            self.path = dbPath
             dbHandler.__instance = self
             self.conn = self.connect()
 

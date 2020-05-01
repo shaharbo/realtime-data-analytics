@@ -24,5 +24,9 @@ class MockDb:
                     'BillingCity TEXT, BillingState TEXT, BillingCountry TEXT, BillingPostalCode TEXT, Total INT);'.format(tn=name))
         self.conn.commit()
 
-## TODO: drop db after test finished
-#    def clear_db(self):
+    def delete_table(self):
+        cur = self.conn.cursor()
+        cur.execute('DROP TABLE {tn}'.format(tn='test'))
+        self.conn.commit()
+        if self.conn:
+            self.conn.close()
