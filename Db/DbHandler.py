@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3, threading
 
 
 class dbHandler:
@@ -7,13 +7,14 @@ class dbHandler:
     @staticmethod
     def getInstance():
         if dbHandler.__instance is None:
-            dbHandler(dbPath='invoices-db')
+            dbHandler(dbPath='invoices.db')
         return dbHandler.__instance
 
     def __init__(self, dbPath):
         if dbHandler.__instance is not None:
             raise Exception("This class is a singleton!")
         else:
+            self.lock = threading.RLock()
             self.path = dbPath
             dbHandler.__instance = self
             self.conn = self.connect()
@@ -42,10 +43,11 @@ class dbHandler:
         return rs
 
     def insert(self, query, params):
-        cur = self.conn.cursor()
-        cur.execute(query, params)
-        self.conn.commit()
-        return cur.lastrowid
+        with self.lock:
+            cur = self.conn.cursor()
+            cur.execute(query, params)
+            self.conn.commit()
+            return cur.lastrowid
 
     def create_table(self, name):
         cur = self.conn.cursor()
